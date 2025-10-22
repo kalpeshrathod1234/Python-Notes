@@ -1,0 +1,10 @@
+names = set()
+print(f"set id is: {names}")
+print(f"set id is: {id(names)}")
+
+names.add("kalpesh")
+names.add("sharad")
+names.add("sunny")
+names.add("raj")
+print(f"set id is: {names}")
+print(f"set id is: {id(names)}")
